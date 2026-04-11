@@ -9,7 +9,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/QuntamVector/productcatalogservice.git', branch: 'main'
+                git url: 'https://github.com/vinodkumarsargam/productcatalogservice.git', branch: 'main'
             }
         }
 
