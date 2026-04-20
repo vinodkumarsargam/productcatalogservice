@@ -15,7 +15,7 @@ pipeline {
 
         stage('Run Unit Tests') {
             steps {
-                sh 'go test ./...'
+                sh 'genproto.sh ./...'
             }
         }
 
